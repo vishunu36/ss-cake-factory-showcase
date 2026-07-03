@@ -1,0 +1,444 @@
+import "./App.css";
+
+import logo from "./assets/logo.png";
+import heroImg from "./assets/hero.png";
+import cakeMenu from "./assets/cakemenu.png";
+
+import cake1 from "./assets/cake1.jpg";
+import cake2 from "./assets/cake2.jpg";
+import cake3 from "./assets/cake3.jpg";
+import cake4 from "./assets/cake4.jpg";
+import cake5 from "./assets/cake5.jpg";
+import cake6 from "./assets/cake6.jpg";
+import cake7 from "./assets/cake7.jpg";
+import cake8 from "./assets/cake8.jpg";
+import cake9 from "./assets/cake9.jpg";
+import cake10 from "./assets/cake10.jpg";
+import cake11 from "./assets/cake11.jpg";
+import cake12 from "./assets/cake12.jpg";
+import cake13 from "./assets/cake13.jpg";
+import cake14 from "./assets/cake14.jpg";
+import cake15 from "./assets/cake15.jpg";
+import cake16 from "./assets/cake16.jpg";
+import cake17 from "./assets/cake17.jpg";
+import cake18 from "./assets/cake18.jpg";
+import cake19 from "./assets/cake19.jpg";
+import cake20 from "./assets/cake20.jpg";
+import cake21 from "./assets/cake21.jpg";
+import cake22 from "./assets/cake22.jpg";
+import cake23 from "./assets/cake23.jpg";
+import cake24 from "./assets/cake24.jpg";
+import cake25 from "./assets/cake25.jpg";
+import cake26 from "./assets/cake26.jpg";
+import cake27 from "./assets/cake27.jpg";
+import cake28 from "./assets/cake28.jpg";
+import cake29 from "./assets/cake29.jpg";
+import cake30 from "./assets/cake30.jpg";
+import cake31 from "./assets/cake31.jpg";
+
+function App() {
+
+  const phone="9666725858";
+
+  const cakes=[ {
+    image: cake1,
+      name: "Signature Chocolate Cake",
+      flavor: "All flavors Available",
+      weight: "1 KG",
+      price: "loading...",
+  }
+
+  ,
+  {
+  image: cake2,
+    name: "Kids Theme Cake Step Cake",
+    flavor: "All flavors Available",
+    weight: "3 KG",
+    price: "loading...",
+}
+
+,
+{
+image: cake3,
+  name: "Butterfly Pink Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake4,
+  name: "First Birthday Step Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake5,
+  name: "Star Theme StepCake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake6,
+  name: "Unicorn Cake",
+  flavor: "All flavors Available",
+  weight: "4 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake7,
+  name: "Mickey Mouse Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake8,
+  name: "Boss Baby Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake9,
+  name: "Cream Birthday Cake",
+  flavor: "All flavors Available",
+  weight: "1 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake10,
+  name: "Princess Doll Cake",
+  flavor: "All flavors Available",
+  weight: "2 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake11,
+  name: "Chocolate Drip step Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake12,
+  name: "Peppa Pig step Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "loading...",
+}
+
+,
+{
+image: cake13,
+  name: "Floral Pink Cake",
+  flavor: "All flavors Available",
+  weight: "2 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake14,
+  name: "Dark Chocolate Step Cake",
+  flavor: "All flavors Available",
+  weight: "1 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake15,
+  name: "Custom Name Step Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake16,
+  name: "Chicken Leg Theme Cake",
+  flavor: "All flavors Available",
+  weight: "2 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake17,
+  name: "Baby Boss Step Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake18,
+  name: "Cute Teddy Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake19,
+  name: "Designer Celebration Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake20,
+  name: "Premium Floral Cake",
+  flavor: "All flavors Available",
+  weight: "4 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake21,
+  name: "Babby Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake22,
+  name: "Butterfly Theme Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake23,
+  name: "Birthday Theme Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake24,
+  name: "Designer Party Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake25,
+  name: "Quenique Celebration Cake",
+  flavor: "All flavors Available",
+  weight: "5 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake26,
+  name: "Special Event Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake27,
+  name: "Rainbow Theme Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake28,
+  name: "Chocolate Celebration Cake",
+  flavor: "All flavors Available",
+  weight: "5 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake29,
+  name: "Valentine's Day Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake30,
+  name: "Doraemon Theme Cake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+
+{
+image: cake31,
+  name: "Father's Day SpecialCake",
+  flavor: "All flavors Available",
+  weight: "3 KG",
+  price: "Loading...",
+}
+
+,
+];
+
+return (<> <nav className="navbar" > <div className="logo-box" > <img src= {
+    logo
+  }
+
+  alt="SS Cake Factory" className="logo" /> <div> <h2>SS Cake Factory</h2> <p>WHOLESALE & RETAIL</p> </div> </div> <ul className="menu" > <li><a href="#home" >Home</a></li> <li><a href="#menu" >Menu</a></li> <li><a href="#gallery" >Gallery</a></li> <li><a href="#location" >Location</a></li> <li><a href="#contact" >Contact</a></li> </ul> <a href= {
+    `https: //wa.me/91${phone}`}
+    target="_blank"
+    rel="noreferrer"
+    className="whatsapp-btn"
+
+    > WhatsApp </a> </nav> <section className="hero-section" id="home" > <div className="hero-text" > <span className="badge" > Hyderabad's Premium Cake Studio
+ </span> <h1> Fresh Cakes <br /> Crafted With Love </h1> <p> Custom Cakes, Theme Cakes,
+    Birthday Cakes & Cool Cakes </p> <div className="buttons" > <a href= {
+      `tel:$ {
+        phone
+      }
+
+      `
+    }
+
+    className="call-btn" > 📞 Call Now </a> <a href= {
+      `https: //wa.me/91${phone}`}
+      target="_blank"
+      rel="noreferrer"
+      className="wa-btn"
+      > WhatsApp Order </a> <a href="https://www.google.com/maps/place/17%C2%B019'13.8%22N+78%C2%B033'47.9%22E/@17.3204968,78.5625525,18.4z/data=!4m4!3m3!8m2!3d17.3205!4d78.563306"
+      target="_blank"
+      rel="noreferrer"
+      className="location-btn"
+
+      > 📍 Location </a> </div> </div> <div className="hero-image" > <img src= {
+        heroImg
+      }
+
+      alt="SS Cake Factory" /> </div> </section> <section className="menu-section" id="menu" > <h2>🎂 Cake Price Menu</h2> <div className="menu-poster" > <img src= {
+        cakeMenu
+      }
+
+      alt="Cake Menu" /> </div> </section> <section className="gallery-section" id="gallery" > <h2>Our Cake Collection</h2> <div className="gallery-grid" > {
+        cakes.map((cake, index)=> (<div className="cake-card" key= {
+              index
+            }
+
+            > <img src= {
+              cake.image
+            }
+
+            alt= {
+              cake.name
+            }
+
+            className="cake-image"
+
+            /> <div className="cake-content" > <h3> {
+              cake.name
+            }
+
+            </h3> <p> Flavor: {
+              cake.flavor
+            }
+
+            </p> <p> Weight: {
+              cake.weight
+            }
+
+            </p> <span className="price" > {
+              cake.price
+            }
+
+            </span> </div> </div>))
+      }
+
+      </div> </section> <section className="location-section" id="location" > <h2>📍 Visit Our Store</h2> <p>Open our store location in Google Maps.</p> <a href="https://www.google.com/maps/place/17%C2%B019'13.8%22N+78%C2%B033'47.9%22E/@17.3204968,78.5625525,18.4z/data=!4m4!3m3!8m2!3d17.3205!4d78.563306"
+      target="_blank"
+      rel="noreferrer"
+      className="location-btn"
+
+      > Open Google Maps </a> </section> <section className="contact-section" id="contact" > <h2>Contact Us</h2> <p>📞 {
+        phone
+      }
+
+      </p> <div className="contact-buttons" > <a href= {
+        `tel:$ {
+          phone
+        }
+
+        `
+      }
+
+      className="call-btn" > Call Now </a> <a href= {
+        `https: //wa.me/91${phone}`}
+        target="_blank"
+        rel="noreferrer"
+        className="wa-btn"
+
+        > WhatsApp </a> </div> </section> <footer className="footer" > <h3>SS Cake Factory</h3> <p>Wholesale & Retail Cakes</p> <p>📞 {
+          phone
+        }
+
+        </p> <p>© 2026 All Rights Reserved</p> </footer> </>);
+    }
+
+    export default App;
