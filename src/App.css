@@ -406,3 +406,12 @@ a {
   font-size: 14px;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .cake-buttons a {
+    width: 140px;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+  }
+}

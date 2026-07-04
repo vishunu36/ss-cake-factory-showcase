@@ -19,7 +19,7 @@ function CakeDetails() {
             textAlign: "center",
             padding: "50px"
         }}>
-            <h1>{cake.name}</h1>
+            <h1 style={{ fontSize: "32px" }}>{cake.name}</h1>
 
             <img
                 src={cake.image}
