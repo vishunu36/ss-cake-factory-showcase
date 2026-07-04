@@ -131,7 +131,7 @@ function Home() {
                 >
 
                     {cakes.map((cake) => (
-                        <SwiperSlide key={cake.id} onClick={() => window.open(cake.image, "_blank")}>
+                        <SwiperSlide key={cake.id} onClick={() => navigate(`/cake/${cake.id}`)}>
                             <img
                                 src={cake.image}
                                 alt={cake.name}
@@ -167,7 +167,7 @@ function Home() {
                         <div
                             className="cake-card"
                             key={index}
-                            onClick={() => window.open(cake.image, "_blank")}
+                            onClick={() => navigate(`/cake/${cake.id}`)}
                         >
 
                             <img

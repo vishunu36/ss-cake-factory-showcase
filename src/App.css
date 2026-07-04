@@ -303,23 +303,22 @@ a {
   }
 
   .gallery-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .cake-card {
+    min-height: auto;
   }
 
   .cake-image {
-    height: 65px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
   }
 
   .cake-content {
-    display: none;
-  }
-
-  .cake-content {
-    display: none;
-  }
-
-  .cake-content {
+    display: block;
     padding: 10px;
   }
 
@@ -333,10 +332,13 @@ a {
     margin-bottom: 4px;
   }
 
+
+
   .price {
     padding: 6px 10px;
     font-size: 12px;
   }
+
 
   .location-section p {
     margin-bottom: 25px;
