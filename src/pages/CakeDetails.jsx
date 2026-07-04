@@ -25,17 +25,32 @@ function CakeDetails() {
                 src={cake.image}
                 alt={cake.name}
                 style={{
-                    width: "350px",
+                    width: "90%",
+                    maxWidth: "300px",
                     borderRadius: "20px",
                     marginTop: "20px"
                 }}
             />
 
-            <h2>{cake.price}</h2>
-            <p>Flavor: {cake.flavor}</p>
-            <p>Weight: {cake.weight}</p>
+            <h2 style={{ marginTop: "20px" }}>{cake.price}</h2>
 
-            <div className="cake-buttons">
+            <p style={{ marginTop: "12px" }}>
+                Flavor: {cake.flavor}
+            </p>
+
+            <p style={{ marginTop: "12px" }}>
+                Weight: {cake.weight}
+            </p>
+
+            <div
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    gap: "15px",
+                    marginTop: "20px",
+                    flexWrap: "wrap"
+                }}
+            >
                 <a href={cake.location} target="_blank" rel="noreferrer" className="location-btn">
                     View Location
                 </a>
